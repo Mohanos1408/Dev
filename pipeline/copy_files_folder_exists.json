@@ -1,5 +1,5 @@
 {
-	"name": "adftest1",
+	"name": "copy_files_folder_exists",
 	"properties": {
 		"activities": [
 			{
