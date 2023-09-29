@@ -10,8 +10,7 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Hyd.txt",
-				"fileSystem": "mohan"
+				"fileSystem": "mohanbin"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
