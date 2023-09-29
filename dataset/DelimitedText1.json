@@ -10,8 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileName": "Pune_Today.txt",
-				"fileSystem": "mohanbin"
+				"fileName": "Hyd.txt",
+				"fileSystem": "mohan"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
