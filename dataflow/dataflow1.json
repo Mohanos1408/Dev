@@ -28,7 +28,7 @@
 			],
 			"scriptLines": [
 				"source(output(",
-				"          EID as string,",
+				"          EID as integer,",
 				"          EName as string,",
 				"          Esalary as integer '000',",
 				"          Addres as string",
