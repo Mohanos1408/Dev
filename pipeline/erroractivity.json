@@ -51,6 +51,11 @@
 				}
 			}
 		],
+		"parameters": {
+			"error_log": {
+				"type": "string"
+			}
+		},
 		"variables": {
 			"error_log": {
 				"type": "String"
