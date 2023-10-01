@@ -45,7 +45,7 @@
 				"typeProperties": {
 					"variableName": "error_log",
 					"value": {
-						"value": "@activity('Data flow1').output.pipelineReturnValue",
+						"value": "@activity('Data flow1').output",
 						"type": "Expression"
 					}
 				}
