@@ -27,7 +27,7 @@
 				}
 			},
 			{
-				"name": "Set variable1",
+				"name": "error_log",
 				"type": "SetVariable",
 				"dependsOn": [
 					{
