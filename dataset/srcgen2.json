@@ -20,7 +20,19 @@
 		},
 		"schema": [
 			{
-				"name": "Id|EID|EName|Esalary|Addres",
+				"name": "EID",
+				"type": "String"
+			},
+			{
+				"name": "EName",
+				"type": "String"
+			},
+			{
+				"name": "Esalary",
+				"type": "String"
+			},
+			{
+				"name": "Addres",
 				"type": "String"
 			}
 		]
