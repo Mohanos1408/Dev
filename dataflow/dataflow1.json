@@ -30,7 +30,7 @@
 				"source(output(",
 				"          EID as string,",
 				"          EName as string,",
-				"          Esalary as integer,",
+				"          Esalary as integer '000',",
 				"          Addres as string",
 				"     ),",
 				"     allowSchemaDrift: true,",
