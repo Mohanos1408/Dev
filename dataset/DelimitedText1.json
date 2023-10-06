@@ -10,7 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
-				"fileSystem": "mohanbin"
+				"fileName": ".csv",
+				"fileSystem": "mohan"
 			},
 			"columnDelimiter": ",",
 			"escapeChar": "\\",
