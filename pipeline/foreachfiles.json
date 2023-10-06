@@ -99,7 +99,8 @@
 						"type": "DatasetReference"
 					},
 					"fieldList": [
-						"columnCount"
+						"childItems",
+						"itemType"
 					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
