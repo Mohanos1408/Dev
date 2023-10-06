@@ -1,0 +1,34 @@
+{
+	"name": "dataflow2",
+	"properties": {
+		"type": "MappingDataFlow",
+		"typeProperties": {
+			"sources": [
+				{
+					"dataset": {
+						"referenceName": "srcgen2",
+						"type": "DatasetReference"
+					},
+					"name": "source1"
+				}
+			],
+			"sinks": [],
+			"transformations": [],
+			"scriptLines": [
+				"source(output(",
+				"          EID as string,",
+				"          EName as string,",
+				"          Esalary as string,",
+				"          Addres as string",
+				"     ),",
+				"     allowSchemaDrift: true,",
+				"     validateSchema: false,",
+				"     ignoreNoFilesFound: false,",
+				"     partitionBy('key',",
+				"          0,",
+				"          ERROR_FUNCTION('')",
+				"     )) ~> source1"
+			]
+		}
+	}
+}
