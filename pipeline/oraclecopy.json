@@ -1,0 +1,19 @@
+{
+	"name": "oraclecopy",
+	"properties": {
+		"activities": [
+			{
+				"name": "itertaesqltables",
+				"type": "ForEach",
+				"dependsOn": [],
+				"userProperties": []
+			}
+		],
+		"parameters": {
+			"table_list": {
+				"type": "array"
+			}
+		},
+		"annotations": []
+	}
+}
