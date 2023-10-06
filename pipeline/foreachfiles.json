@@ -117,11 +117,6 @@
 				}
 			}
 		],
-		"variables": {
-			"filename": {
-				"type": "Array"
-			}
-		},
 		"annotations": []
 	}
 }
