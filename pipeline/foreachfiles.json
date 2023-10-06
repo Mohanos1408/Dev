@@ -112,6 +112,11 @@
 				}
 			}
 		],
+		"parameters": {
+			"filename": {
+				"type": "array"
+			}
+		},
 		"annotations": []
 	}
 }
