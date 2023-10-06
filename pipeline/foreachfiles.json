@@ -1,0 +1,19 @@
+{
+	"name": "foreachfiles",
+	"properties": {
+		"activities": [
+			{
+				"name": "ForEach1",
+				"type": "ForEach",
+				"dependsOn": [],
+				"userProperties": []
+			}
+		],
+		"parameters": {
+			"file_name": {
+				"type": "array"
+			}
+		},
+		"annotations": []
+	}
+}
