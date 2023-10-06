@@ -6,7 +6,13 @@
 				"name": "itertaesqltables",
 				"type": "ForEach",
 				"dependsOn": [],
-				"userProperties": []
+				"userProperties": [],
+				"typeProperties": {
+					"items": {
+						"value": "@pipeline().parameters.table_list",
+						"type": "Expression"
+					}
+				}
 			}
 		],
 		"parameters": {
