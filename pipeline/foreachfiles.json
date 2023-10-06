@@ -103,7 +103,9 @@
 						"referenceName": "DelimitedText1",
 						"type": "DatasetReference"
 					},
-					"fieldList": [],
+					"fieldList": [
+						"childItems"
+					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
 						"enablePartitionDiscovery": false
@@ -114,6 +116,16 @@
 				}
 			}
 		],
+		"parameters": {
+			"filename": {
+				"type": "array"
+			}
+		},
+		"variables": {
+			"asa": {
+				"type": "String"
+			}
+		},
 		"annotations": []
 	}
 }
