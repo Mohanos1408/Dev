@@ -95,11 +95,12 @@
 				"userProperties": [],
 				"typeProperties": {
 					"dataset": {
-						"referenceName": "srcgen2",
+						"referenceName": "DelimitedText1",
 						"type": "DatasetReference"
 					},
 					"fieldList": [
-						"itemName"
+						"itemName",
+						"childItems"
 					],
 					"storeSettings": {
 						"type": "AzureBlobFSReadSettings",
