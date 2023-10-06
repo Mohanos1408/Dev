@@ -73,7 +73,13 @@
 							"inputs": [
 								{
 									"referenceName": "srcgen2",
-									"type": "DatasetReference"
+									"type": "DatasetReference",
+									"parameters": {
+										"Filename": {
+											"value": "@item()",
+											"type": "Expression"
+										}
+									}
 								}
 							],
 							"outputs": [
